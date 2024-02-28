@@ -3,9 +3,8 @@ This script automates the setup of Intel SGX and Swisstronik on a Linux system.
 It checks for SGX support, installs the SGX driver and AESM service, and sets up necessary dependencies for Swisstronik development.
 
 ## Prerequisites
-• A Linux system with kernel version 5.11 or higher.
+• A Linux system with kernel version 5.11 or higher.  
 • BIOS support for SGX (ensure SGX is enabled in BIOS settings).
-• Internet connection for downloading necessary packages.
 
 # Usage
 ## Download the script:
