@@ -8,10 +8,16 @@ It checks for SGX support, installs the SGX driver and AESM service, and sets up
 
 # Usage
 ## Download the script:
-```wget https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/swisstronik/setup_sgx_swisstronik.sh```
+```
+wget https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/swisstronik/setup_sgx_swisstronik.sh
+```
 ## Make the script executable:
-```chmod +x setup_sgx_swisstronik.sh```
+```
+chmod +x setup_sgx_swisstronik.sh
+```
 ## Run the script with root privileges:
-```sudo ./setup_sgx_swisstronik.sh```
+```
+sudo ./setup_sgx_swisstronik.sh
+```
 ## Troubleshooting
 If you encounter any issues with the SGX driver installation, ensure that SGX is enabled in your BIOS settings.
