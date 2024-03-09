@@ -41,14 +41,23 @@ source $HOME/.bash_profile
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 ```
 
-# Download Binary
+# Set Desired Moniker of your node
+```
+echo "export MONIKER="my_name"" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+```
+
+# Download Binary and init app
 ```python
+
 cd $HOME
 wget https://github.com/crossfichain/crossfi-node/releases/download/v0.3.0-prebuild3/crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz && tar -xf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
 tar -xvf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz
 chmod +x $HOME/bin/crossfid
 mv $HOME/bin/crossfid $HOME/go/bin
 rm -rf crossfi-node_0.3.0-prebuild3_linux_amd64.tar.gz $HOME/bin
+rm /root/.mineplex-chain/config/genesis.json
+crossfid init $MONIKER --chain-id crossfi-evm-testnet-1
 ```
 
 
@@ -66,7 +75,7 @@ wget https://github.com/blacknodes/Node-Services/blob/main/Projects/CrossFi/gene
 
 ## Set up the minimum gas price and Peers/Seeds/Filter peers/MaxPeers
 ```python
-sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0umars\"/" $HOME/.mineplex-chain/config/app.toml
+sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0mpx\"/" $HOME/.mineplex-chain/config/app.toml
 sed -i -e "s/^filter_peers *=.*/filter_peers = \"true\"/" $HOME/.mineplex-chain/config/config.toml
 external_address=$(wget -qO- eth0.me) 
 sed -i.bak -e "s/^external_address *=.*/external_address = \"$external_address:26656\"/" $HOME/.mineplex-chain/config/config.toml
@@ -94,7 +103,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.mineplex-chain/config
 
 ## Download addrbook
 ```python
-wget -O $HOME/.mineplex-chain/config/addrbook.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Mars/addrbook.json"
+wget -O $HOME/.mineplex-chain/config/addrbook.json "https://files.blacknodes.net/crossfi/addrbook.json"
 ```
 
 
@@ -127,17 +136,17 @@ sudo systemctl restart crossfid && sudo journalctl -u crossfid -f
 ```python
 crossfid tx staking create-validator \
 --amount 1000000mpx \
---from $WALLET \
+--from <walletname> \
 --commission-rate 0.1 \
 --commission-max-rate 0.2 \
 --commission-max-change-rate 0.01 \
 --min-self-delegation 1 \
 --pubkey $(crossfid tendermint show-validator) \
---moniker "test" \
+--moniker "my_name" \
 --identity "" \
 --details "Blacknodes tutorial" \
 --chain-id crossfi-evm-testnet-1 \
---gas auto --gas-adjustment 1.5 --gas-prices 10000000000000mpx \
+--gas auto --gas-adjustment 1.4 --gas-prices 10000000000000mpx \
 -y
 ```
 
