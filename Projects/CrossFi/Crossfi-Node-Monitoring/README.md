@@ -40,7 +40,8 @@ sudo ufw enable
 # Go to Grafana http://yourip:3000
 ## Add New DataSource Prometheus
 ![Screenshot 2024-03-12 010046](https://github.com/blacknodes/Node-Services/assets/85839823/c0d0a9f0-a707-4bbc-b08b-0886a996ddfc)
-## Import our Dashboard using Import via panel json
+
+# Import our Dashboard using Import via panel json (Optional)
 https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/CrossFi/Crossfi-Node-Monitoring/CrossfiDashboardByBlackNodes.json
 
 # Set Alert 
