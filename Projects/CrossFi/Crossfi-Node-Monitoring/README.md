@@ -37,7 +37,7 @@ sudo ufw allow 3000
 sudo ufw enable
 ```
 
-# Go to Grafana http://<yourip>:3000
+# Go to Grafana http://yourip:3000
 ## Add New DataSource Prometheus
 ![Screenshot 2024-03-12 010046](https://github.com/blacknodes/Node-Services/assets/85839823/c0d0a9f0-a707-4bbc-b08b-0886a996ddfc)
 ## Add New Dashboard using Import via panel json
