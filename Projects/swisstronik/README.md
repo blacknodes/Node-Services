@@ -1,9 +1,10 @@
 [Blacknodes VALIDATOR]
 =
 
+
 <h1 align="center">SWISSTRONIK TESTNET guide</h1>
 
-![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/83e24f02-d978-41be-abc2-49a8a2b8d36c)
+![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/c983919e-7adb-4a0a-bcd5-c38216491ef0)
 
 =
 [EXPLORER]
