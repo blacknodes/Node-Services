@@ -1,3 +1,24 @@
+[Blacknodes VALIDATOR]
+=
+
+<h1 align="center">SWISSTRONIK TESTNET guide</h1>
+
+<img src="https://private-user-images.githubusercontent.com/85839823/307844968-e5617b6b-78ff-4a96-9fa0-05376e60e401.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA1OTYyNjcsIm5iZiI6MTcxMDU5NTk2NywicGF0aCI6Ii84NTgzOTgyMy8zMDc4NDQ5NjgtZTU2MTdiNmItNzhmZi00YTk2LTlmYTAtMDUzNzZlNjBlNDAxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE2VDEzMzI0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxM2QyYmZlZjU4ODQ3MTIyYzNmNjc1M2FjNGRlYzkzNGQ5OWNiYjUwNmFjYzQ3ZTkzNGFiYzc0ZWMxNmE3MDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CpL1xfIYDvOvfDCYhqoKHfzcsEzJD2ktajqqRjwQa5A" width="150" height="150">
+
+=
+[EXPLORER]
+(https://explorer.blacknodes.net/Swisstronik-Testnet) \
+=
+
+- **Minimum hardware requirements**:
+
+| Node Type |CPU | RAM  | Storage  | 
+|-----------|----|------|----------|
+| Mainnet   |   8|  32GB | 500GB+ |
+
+
+
+
 # Setup SGX and Swisstronik
 This script automates the setup of Intel SGX and Swisstronik on a Linux system. 
 It checks for SGX support, installs the SGX driver and AESM service, and sets up necessary dependencies for Swisstronik development.
