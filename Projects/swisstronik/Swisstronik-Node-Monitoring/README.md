@@ -1,6 +1,6 @@
 # Download the install-monitoring-tools.sh script
 ```
-wget https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/Swisstronik/Swisstronik-Node-Monitoring/install-monitoring-tools.sh
+wget https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/swisstronik/Swisstronik-Node-Monitoring/install-monitoring-tools.sh
 ```
 # Give Execution Permission to the script 
 ```
