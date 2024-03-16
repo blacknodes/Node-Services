@@ -1,6 +1,6 @@
 # Download the install-monitoring-tools.sh script
 ```
-https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/CrossFi/Crossfi-Node-Monitoring/install-monitoring-tools.sh
+https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/Swisstronik/Swisstronik-Node-Monitoring/install-monitoring-tools.sh
 ```
 # Give Execution Permission to the script 
 ```
@@ -12,10 +12,10 @@ sudo chmod +x install-monitoring-tools.sh
 ./install-monitoring-tools.sh
 ```
 
-# Add Job "Crossfi-Node" in prometheus file 
+# Add Job "Swisstronik-Node" in prometheus file 
 ```
 sed -i '/scrape_configs:/a \
-  - job_name: "Crossfi-Node"\
+  - job_name: "Swisstronik-Node"\
     static_configs:\
       - targets: ["localhost:26660"]' /opt/prometheus/prometheus.yml
 ```
@@ -24,7 +24,7 @@ sed -i '/scrape_configs:/a \
 
 # Restart your node and prometheus server
 ```
-sudo systemctl restart crossfid.service
+sudo systemctl restart swisstronikd.service
 sudo systemctl restart prometheus.service
 ```
 
@@ -42,7 +42,7 @@ sudo ufw enable
 ![Screenshot 2024-03-12 010046](https://github.com/blacknodes/Node-Services/assets/85839823/c0d0a9f0-a707-4bbc-b08b-0886a996ddfc)
 
 # Import our Dashboard using Import via panel json (Optional)
-https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/CrossFi/Crossfi-Node-Monitoring/CrossfiDashboardByBlackNodes.json
+https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/Swisstronik/Swisstronik-Node-Monitoring/SwisstronikDashboardByBlackNodes.json
 
 # Set Alert 
 ## Use this metric for alert 
