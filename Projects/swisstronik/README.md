@@ -3,7 +3,7 @@
 
 <h1 align="center">SWISSTRONIK TESTNET guide</h1>
 
-<img src="![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/83e24f02-d978-41be-abc2-49a8a2b8d36c)" width="150" height="150">
+![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/83e24f02-d978-41be-abc2-49a8a2b8d36c)
 
 =
 [EXPLORER]
