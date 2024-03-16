@@ -42,7 +42,7 @@ sudo ufw enable
 ![Screenshot 2024-03-12 010046](https://github.com/blacknodes/Node-Services/assets/85839823/c0d0a9f0-a707-4bbc-b08b-0886a996ddfc)
 
 # Import our Dashboard using Import via panel json (Optional)
-https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/Swisstronik/Swisstronik-Node-Monitoring/SwisstronikDashboardByBlackNodes.json
+https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/swisstronik/Swisstronik-Node-Monitoring/SwisstronikDashboardByBlackNodes.json
 
 # Set Alert 
 ## Use this metric for alert 
@@ -57,4 +57,4 @@ increase(tendermint_consensus_validator_last_signed_height[30m])
 ## Add new Contact point, paste your bot api token and telegram id there
 ![image](https://github.com/blacknodes/Node-Services/assets/85839823/a8d66cdd-c497-4ffd-814e-f030faff848b)
 
-# Now youll receive an alert in your telegram bot whenever your node will stop or get out of the active 64 set!
+# Now you'll receive an alert in your telegram bot whenever your node will be inactive!
