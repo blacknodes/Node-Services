@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/swisstr
 # Set Alert 
 ## Use this metric for alert 
 ```
-increase(tendermint_consensus_validator_last_signed_height[30m])
+increase(cometbft_consensus_validator_last_signed_height[30m])
 ```
 ## Set Threshold (is below 100) and change type from range to instant
 ![Screenshot 2024-03-12 013505](https://github.com/blacknodes/Node-Services/assets/85839823/ebbcddfc-634b-4ff8-994f-16ad47e882a5)
