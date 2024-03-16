@@ -2,9 +2,10 @@
 =
 
 
-<h1 align="center">SWISSTRONIK TESTNET guide ![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/c983919e-7adb-4a0a-bcd5-c38216491ef0)</h1>
+<h1 align="center">SWISSTRONIK TESTNET guide </h1>
 
 
+![swisstronik](https://github.com/blacknodes/Node-Services/assets/85839823/c983919e-7adb-4a0a-bcd5-c38216491ef0)
 
 =
 [EXPLORER]
