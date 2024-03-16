@@ -1,6 +1,6 @@
 # Download the install-monitoring-tools.sh script
 ```
-https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/CrossFi/Crossfi-Node-Monitoring/install-monitoring-tools.sh
+wget https://raw.githubusercontent.com/blacknodes/Node-Services/main/Projects/CrossFi/Crossfi-Node-Monitoring/install-monitoring-tools.sh
 ```
 # Give Execution Permission to the script 
 ```
