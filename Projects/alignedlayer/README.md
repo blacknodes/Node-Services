@@ -7,7 +7,7 @@
 
 =
 [EXPLORER]
-(https://explorer.blacknodes.net/Alignedlayer-Testnet) \
+(https://explorer.blacknodes.net/AlignedLayer-Testnet) \
 =
 
 - **Minimum hardware requirements**:
