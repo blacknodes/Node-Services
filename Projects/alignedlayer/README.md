@@ -14,7 +14,7 @@
 
 | Node Type |CPU | RAM  | Storage  | 
 |-----------|----|------|----------|
-| Mainnet   |   4|  16GB | 160GB+ |
+| Testnet   |   4|  16GB | 160GB+ |
 
 
 
