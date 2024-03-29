@@ -4,6 +4,9 @@
 <h1 align="center">Alignedlayer TESTNET guide</h1>
 
 
+![image](https://github.com/blacknodes/Node-Services/assets/85839823/f9891179-98a5-4bee-840d-ed3e5d82339a)
+
+
 
 =
 [EXPLORER]
