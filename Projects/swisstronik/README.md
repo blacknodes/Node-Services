@@ -16,7 +16,7 @@
 
 | Node Type |CPU | RAM  | Storage  | 
 |-----------|----|------|----------|
-| Mainnet   |   8|  32GB | 500GB+ |
+| Testnet   |   8|  32GB | 500GB+ |
 
 
 
