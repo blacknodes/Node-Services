@@ -1,13 +1,13 @@
 [Blacknodes VALIDATOR]
 =
 
-<h1 align="center">PersistenceCore TESTNET guide</h1>
+<h1 align="center">PersistenceCore MAINNET guide</h1>
 
 
 
 =
 [EXPLORER]
-(https://explorer.blacknodes.net/PersistenceCore-Testnet) \
+(https://explorer.blacknodes.net/PersistenceCore) \
 =
 
 - **Minimum hardware requirements**:
