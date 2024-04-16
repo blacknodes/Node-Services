@@ -65,7 +65,7 @@ celestia-appd keys add <walletname> --recover
 
 ## Download Genesis
 ```python
-wget https://github.com/blacknodes/Node-Services/blob/main/Projects/celestia/genesis.json -O $HOME/.celestia-app/config/genesis.json
+wget -O $HOME/.celestia-app/config/genesis.json "https://files.blacknodes.net/celestia/genesis.json"
 ```
 
 
@@ -99,7 +99,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.celestia-app/config/c
 
 ## Download addrbook
 ```python
-wget -O $HOME/.celestia-app/config/addrbook.json "https://files.blacknodes.net/crossfi/addrbook.json"
+wget -O $HOME/.celestia-app/config/addrbook.json "https://files.blacknodes.net/celestia/addrbook.json"
 ```
 
 
