@@ -29,12 +29,9 @@ sudo systemctl restart prometheus.service
 ```
 
 
-# Open ports 8091 and 3000 (prometheus default port is 9090 but we are using 8091 here because 9090 is used for grpc-server) 
+# Open port 3000 (prometheus default port is 9090 but we are using 8091 here because 9090 is used for grpc-server) 
 ```
-sudo ufw allow 22
-sudo ufw allow 8091
 sudo ufw allow 3000
-sudo ufw enable
 ```
 
 # Go to Grafana http://yourip:3000
