@@ -1568,8 +1568,8 @@
       {
         "current": {
           "selected": false,
-          "text": "Alignedlayer-evm-testnet-1",
-          "value": "Alignedlayer-evm-testnet-1"
+          "text": "seda-1-testnet",
+          "value": "seda-1-testnet"
         },
         "datasource": {
           "type": "prometheus",
@@ -1652,7 +1652,7 @@
     ]
   },
   "timezone": "",
-  "title": "AlignedlayerDashboardByBlackNodes",
+  "title": "SedaDashboardByBlackNodes",
   "uid": "UJyurCTWzrd",
   "version": 8,
   "weekStart": ""
